@@ -41,10 +41,12 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = SystemColors.ActiveBorder;
+            label1.Font = new Font("Yu Gothic UI", 9.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.ButtonFace;
             label1.Location = new Point(347, 187);
             label1.Name = "label1";
-            label1.Size = new Size(38, 15);
+            label1.Size = new Size(41, 17);
             label1.TabIndex = 0;
             label1.Text = "label1";
             label1.Click += label1_Click;
