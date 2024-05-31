@@ -65,5 +65,13 @@ namespace fukuv0531
         {
             label1.Left += vy;
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            float fw = 3.14f;
+            string str = $"{fw}";
+            int a = (int)fw;
+            MessageBox.Show($"{a}");
+        }
     }
 }

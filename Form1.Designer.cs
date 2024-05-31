@@ -36,6 +36,7 @@
             button3 = new Button();
             button4 = new Button();
             timer2 = new System.Windows.Forms.Timer(components);
+            button5 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -99,11 +100,22 @@
             // 
             timer2.Tick += timer2_Tick;
             // 
+            // button5
+            // 
+            button5.Location = new Point(120, 158);
+            button5.Name = "button5";
+            button5.Size = new Size(75, 77);
+            button5.TabIndex = 5;
+            button5.Text = "button5";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
@@ -124,5 +136,6 @@
         private Button button3;
         private Button button4;
         private System.Windows.Forms.Timer timer2;
+        private Button button5;
     }
 }
