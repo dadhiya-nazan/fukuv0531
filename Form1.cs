@@ -15,6 +15,7 @@ namespace fukuv0531
         {
             vy = -15;
             label1.Text = "è„";
+            label1.BackColor = Color.Blue;
             timer1.Enabled = true;
             timer2.Enabled = false;
 
@@ -24,6 +25,7 @@ namespace fukuv0531
         {
             vy = 15;
             label1.Text = "â∫";
+            label1.BackColor = Color.Green;
             timer1.Enabled = true;
             timer2.Enabled = false;
         }
@@ -44,6 +46,7 @@ namespace fukuv0531
         {
             vy = 15;
             label1.Text = "âE";
+            label1.BackColor = Color.Red;
             timer1.Enabled = false;
             timer2.Enabled = true;
         }
@@ -52,6 +55,7 @@ namespace fukuv0531
         {
             vy = -15;
             label1.Text = "ç∂";
+            label1.BackColor = Color.Yellow;
             timer1.Enabled = false;
             timer2.Enabled = true;
         }
