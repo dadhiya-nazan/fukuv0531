@@ -49,7 +49,7 @@
             // 
             button1.Location = new Point(642, 282);
             button1.Name = "button1";
-            button1.Size = new Size(63, 25);
+            button1.Size = new Size(80, 39);
             button1.TabIndex = 1;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
@@ -57,9 +57,9 @@
             // 
             // button2
             // 
-            button2.Location = new Point(642, 327);
+            button2.Location = new Point(642, 338);
             button2.Name = "button2";
-            button2.Size = new Size(63, 25);
+            button2.Size = new Size(80, 39);
             button2.TabIndex = 2;
             button2.Text = "button2";
             button2.UseVisualStyleBackColor = true;
