@@ -40,6 +40,7 @@ namespace fukuv0531
             timer1.Enabled = false;
             timer2.Enabled = false;
             label1.Text = "’·ú±—N“l";
+            label1.BackColor = Color.Black;
         }
 
         private void button3_Click(object sender, EventArgs e)

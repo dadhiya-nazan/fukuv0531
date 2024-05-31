@@ -41,6 +41,7 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.ForeColor = SystemColors.ButtonFace;
             label1.Location = new Point(347, 187);
             label1.Name = "label1";
             label1.Size = new Size(38, 15);
