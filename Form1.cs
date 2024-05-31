@@ -71,7 +71,11 @@ namespace fukuv0531
             float fw = 3.14f;
             string str = $"{fw}";
             int a = (int)fw;
-            MessageBox.Show($"{a}");
+            //MessageBox.Show($"{a}");
+            str = "3";
+            a = int.Parse(str); //Parse “Š‰e
+            fw = a;
+            fw = float.Parse(str);
         }
     }
 }
